@@ -1,3 +1,13 @@
+xv6教学操作系统：https://github.com/mit-pdos/xv6-public
+使用方式：
+    make 对操作系统进行编译
+    make qemu 对应用程序进行编译，并启动qemu模拟器
+    make clean 去除之前make生成的二进制文件
+在操作系统提供的服务之上构建应用程序，为了编译这些应用程序，只需在makefile中168行处的UPROGS处添加程序名称即可
+
+
+
+以下是原始的readme内容：
 NOTE: we have stopped maintaining the x86 version of xv6, and switched
 our efforts to the RISC-V version
 (https://github.com/mit-pdos/xv6-riscv.git)
